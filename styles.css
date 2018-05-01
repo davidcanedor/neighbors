@@ -1,0 +1,140 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* End CSS Reset code */
+/* Begin My Css */
+
+@font-face {
+font-family: "Mazama";
+src: url("mazama.ttf");
+}
+@font-face {
+font-family: "Saol Text Light Italic";
+src: url("Saol Text Light Italic.otf");
+}
+@font-face {
+font-family: "Saol Text Light";
+src: url("Saol Text Light.otf");
+}
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.article{
+    padding:10px;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+.article1{
+    padding:10px;
+    border-bottom: 1px solid #000000;
+    position: relative;
+}
+h1 {font-family: 'Arial';
+    font-size:40px;
+}
+n1{font-family: 'Mazama';
+    font-size:100px;
+    color: #CB3644;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+n2{font-family: 'Mazama';
+    font-size:100px;
+    color: #557140;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+n3{font-family: 'Mazama';
+    font-size:100px;
+    color: #F1E7E5;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+n4{font-family: 'Mazama';
+    font-size:100px;
+    color: #D03B6D;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+n5{font-family: 'Mazama';
+    font-size:100px;
+    color: #3B2D2D;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+n6{font-family: 'Mazama';
+    font-size:100px;
+    color: #DAB42F;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+n9{font-family: 'Mazama';
+    font-size:100px;
+    color: #454551;
+    float: left;
+    opacity: 0.5;   
+    position:absolute;
+}
+n8{font-family: 'Mazama';
+    font-size:100px;
+    color: #94B6D9;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+p1 {font-family: 'Saol Text Light';
+    font-size:15px;
+}
+p2{font-family: 'Saol Text Light Italic';
+    font-size:15px;
+}
+p3{font-family: 'Saol Text Light Italic';
+    font-size:13px;
+}
+img{
+    width: 100%;
+}
+video{
+    width: 100%;
+}
+header {
+    font-family: 'Mazama';
+    padding: 4px;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: -.02em;
+    line-height:1;
+    border-bottom: 1px solid #000000; 
+    margin-top: 15px;
+    color: black;
+}
