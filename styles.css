@@ -190,7 +190,7 @@ header {
     border-bottom: 1px solid #000000; 
     margin-top: 15px;
     color: black;
-    width: auto;
+    width: inherit;
 }
 .collapsible {
   background-color:white;
