@@ -81,7 +81,6 @@ src: url("Saol Text Light.otf");
 }
 .article5{
     padding:10px;
-    border-right: 1px solid #000000;
     position: relative;
 }
 .article6{
@@ -160,7 +159,7 @@ n8{font-family: 'Mazama';
     opacity: 0.5;   
 }
 p1 {font-family: 'Saol Text Light';
-    font-size:20px;
+    font-size:20fpx;
 }
 p2{font-family: 'Saol Text Light Italic';
     font-size:15px;
