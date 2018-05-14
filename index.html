@@ -5,10 +5,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Neighbors</title>
-        <script src="myscript.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
     </head>
     <body>
-<header> Neighbors</header>
+<header> Neighbors</header> 
 <p1><button class="collapsible"><n0>01</n0><h2>Artist Statement</h2><h4>by David Canedo Rivas</h4></button>
 <div class="content">
 Neighbors/Breadwinners is a collection of art objects and textiles that explores the complicated labor relationship between the US and Mexico. By using different materials to construct cloth, I intend to create analogies and stories rooted in the participation of Mexicans in the US economy and how the inter-twining of the economies impact both sides. In the current political climate, I found the urge to break down the history and the system in which I am about to participate.</p1>
@@ -221,20 +222,3 @@ Neighbors/Breadwinners is a collection of art objects and textiles that explores
         </video>
     </div>
     </div>
-    <script>var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-    function ChangeBackground() {
-    setInterval(function(){ alert("Hello"); }, 3000);
-}
-}</script>
