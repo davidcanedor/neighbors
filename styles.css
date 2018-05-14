@@ -104,7 +104,7 @@ h3  {font-family: 'Saol Text Light Italic';
 }
 n1{font-family: 'Mazama';
     font-size:100px;
-    color: #CB3644;
+    color: #d13a6d;
     float: left;
     position:absolute;
     opacity: 0.5;   
@@ -152,6 +152,13 @@ n9{font-family: 'Mazama';
     position:absolute;
 }
 n8{font-family: 'Mazama';
+    font-size:100px;
+    color: #94B6D9;
+    float: left;
+    position:absolute;
+    opacity: 0.5;   
+}
+n0{font-family: 'Mazama';
     font-size:100px;
     color: #94B6D9;
     float: left;
