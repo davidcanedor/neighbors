@@ -102,12 +102,18 @@ h3  {font-family: 'Saol Text Light Italic';
     font-size:50px;
     text-align: center;
 }
+h4 {font-family: 'Saol Text Light Italic';
+    font-size:20px;
+    text-align: right;  
+    margin-right: 10px;
+}
 n1{font-family: 'Mazama';
     font-size:100px;
     color: #d13a6d;
     float: left;
     position:absolute;
-    opacity: 0.5;   
+    opacity: 0.5;  
+    margin-top: -10px;
 }
 n2{font-family: 'Mazama';
     font-size:100px;
@@ -115,34 +121,39 @@ n2{font-family: 'Mazama';
     float: left;
     position:absolute;
     opacity: 0.5;   
+    margin-top: -10px;
 }
 n3{font-family: 'Mazama';
     font-size:100px;
-    color: #F1E7E5;
+    color: #cab69d;
     float: left;
     position:absolute;
-    opacity: 0.5;   
+    opacity: 0.5; 
+    margin-top: -10px;
 }
 n4{font-family: 'Mazama';
     font-size:100px;
-    color: #D03B6D;
+    color: #94b6d9;
     float: left;
     position:absolute;
-    opacity: 0.5;   
+    opacity: 0.5;  
+    margin-top: -10px;
 }
 n5{font-family: 'Mazama';
     font-size:100px;
-    color: #3B2D2D;
+    color: #3b2d2d;
     float: left;
     position:absolute;
-    opacity: 0.5;   
+    opacity: 0.5;  
+    margin-top: -10px;
 }
 n6{font-family: 'Mazama';
     font-size:100px;
-    color: #DAB42F;
+    color: #dab42f;
     float: left;
     position:absolute;
-    opacity: 0.5;   
+    opacity: 0.5;  
+    margin-top: -10px;
 }
 n9{font-family: 'Mazama';
     font-size:100px;
@@ -150,20 +161,23 @@ n9{font-family: 'Mazama';
     float: left;
     opacity: 0.5;   
     position:absolute;
+    margin-top: -10px;
 }
 n8{font-family: 'Mazama';
     font-size:100px;
     color: #94B6D9;
     float: left;
     position:absolute;
-    opacity: 0.5;   
+    opacity: 0.5;  
+    margin-top: -10px;
 }
 n0{font-family: 'Mazama';
     font-size:100px;
-    color: #94B6D9;
+    color: #cc3544;
     float: left;
     position:absolute;
-    opacity: 0.5;   
+    opacity: 0.5;  
+    margin-top: -10px;
 }
 p1 {font-family: 'Saol Text Light';
     font-size:20fpx;
@@ -220,4 +234,8 @@ margin-bottom: 15px;
   overflow: hidden;
   background-color: white;
  border-bottom: 1px solid #000000;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
